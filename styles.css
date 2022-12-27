@@ -3,6 +3,8 @@ body{
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;
+	height: 100%;
+	width: 100%;
 }
 
 .scroller{
@@ -47,14 +49,15 @@ body{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .scroller-member{
 	display: flex;
-	overflow: hidden;
+	flex: 1 1 400px;
 	flex-direction: column;
 	min-height: 0;
-	min-width: 0;
+	min-width: 400px;
 }
 
 .scroller-member-wrapper-image{
@@ -92,14 +95,14 @@ body{
 .scroller-member-name{
 	margin: 0;
 	font-family: 'Caveat', cursive;
-	font-size: 6vw;
+	font-size: 100px;
 	color: #e10600;
 }
 
 .scroller-member-role{
 	margin: 0;
 	font-family: 'Caveat', cursive;
-	font-size: 5vw;
+	font-size: 70px;
 	color: #e10600;
 }
 

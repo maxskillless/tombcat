@@ -31,7 +31,7 @@ body{
 }
 
 .scroller-content-title{
-	font-size: 150px;
+	font-size: 70%;
 	font-family: 'Unbounded', cursive;
 	color: #e10600;
 	margin-bottom: 0;
@@ -131,7 +131,7 @@ body{
 
 .scroller-content-links-heading{
 	font-family: 'Unbounded', bold;
-	font-size: 70px;
+	font-size: 40%;
 	color: #e10600;
 }
 
@@ -141,7 +141,7 @@ body{
 
 .scroller-content-links-url{
 	font-family: 'Unbounded';
-	font-size: 50px;
+	font-size: 30%;
 	color: #800004;
 	text-decoration: none;
 }
